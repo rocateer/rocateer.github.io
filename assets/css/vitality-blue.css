@@ -19,6 +19,9 @@ section {
 .bg-gray {
   background-color: #f5f5f5;
 }
+.bg-dkgray {
+  background-color: #222;
+}
 .bg-dark {
   color: white;
   background-color: #222222;
@@ -166,7 +169,7 @@ hr.colored {
   }
 }
 .text-primary {
-  color: #3d9dd6;
+  color: #9498bc;
 }
 .navbar-fixed-top {
   margin-bottom: 0;
@@ -177,8 +180,8 @@ hr.colored {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #0a8fd5;
-  background-color: white;
+  color: #FFF;
+  background-color: ;
   border-radius: 0;
 }
 .navbar-default {
@@ -196,7 +199,7 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #3d9dd6;
+  background-color: #000;
 }
 .navbar-default,
 .navbar-inverse {
@@ -221,11 +224,11 @@ hr.colored {
 .navbar-inverse .navbar-brand span {margin-left:5px;}
 .navbar-default .navbar-nav li a,
 .navbar-inverse .navbar-nav li a {
-  color: white;
+  color: #9498bc;
 }
 .navbar-default .navbar-nav li a:hover,
 .navbar-inverse .navbar-nav li a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 @media (min-width: 768px) {
   .navbar-default .navbar-nav > .active > a,
@@ -551,7 +554,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #0b5486 !important;
+  background-color: #576083 !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -575,7 +578,7 @@ aside.cta-quote span.quote {
   width: 75px;
   line-height: 70px;
   text-align: center;
-  background-color: #89c8e1;
+  background-color: #9498bc;
   color:#FFF;
   /*border: 3px solid #222222;*/
   border-radius: 100%;
@@ -987,7 +990,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: rgba(255, 255, 255, 0.7);
+  color: #ddd;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1062,7 +1065,7 @@ footer.footer .copyright p.small {
 .btn-full-width {
   border: 0;
   border-radius: 0;
-  background-color: #0a5486;
+  background-color: #222;
   color: white;
   padding: 50px 0;
   font-size: 26px;
@@ -1071,8 +1074,8 @@ footer.footer .copyright p.small {
   text-transform: none;
 }
 .btn-full-width:hover {
-  background-color: #004178;
-  color: white;
+  background-color: #000;
+  color: #9498bc;
 }
 .btn-full-width:focus {
   color: white;
@@ -1162,4 +1165,12 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
 }
 
-.intro-content img {margin:10px; opacity : 0.3;}
+.intro-content img {margin:10px; opacity : 1;}
+#about {background-color:#576083; color:#FFF;} 
+#about p {color:#ddd;}
+#process {background-color:#576083; color:#FFF;} 
+#process p, ul li {color:#ddd;}
+
+.bg-dkgray {color:#576083;}
+.quote {text-shadow: 0px 2px 6px #222;}
+footer  {text-shadow: 0px 1px 3px #000;}
