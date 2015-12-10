@@ -1,5 +1,4 @@
 # Platform-Rocateer
-![Platform Rocateer logo](screens/logo.png)
 
  ______   __         ______     ______   ______   ______     ______     __    __    
 /\  == \ /\ \       /\  __ \   /\__  _\ /\  ___\ /\  __ \   /\  == \   /\ "-./  \   
