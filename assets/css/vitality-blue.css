@@ -404,7 +404,7 @@ aside.cta-quote span.quote {
   }
   aside.cta-quote span.quote {
     font-size: 36px;
-    line-height: 38px;
+    line-height: 50px;
   }
 }
 @media (min-width: 992px) {
@@ -413,7 +413,7 @@ aside.cta-quote span.quote {
   }
   aside.cta-quote span.quote {
     font-size: 40px;
-    line-height: 42px;
+    line-height: 55px;
   }
 }
 @media (min-width: 1025px) {
@@ -1168,9 +1168,9 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 }
 
 .intro-content img {margin:10px; opacity : 1;}
-#about {background-color:#576083; color:#FFF;} 
+#about {background-color:#576083; color:#FFF;}
 #about p {color:#ddd;}
-#process {background-color:#576083; color:#FFF;} 
+#process {background-color:#576083; color:#FFF;}
 #process p, ul li {color:#ddd;}
 
 .bg-dkgray {color:#576083;}
