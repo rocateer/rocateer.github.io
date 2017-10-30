@@ -1178,6 +1178,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .quote {text-shadow: 0px 2px 6px #222;}
 footer  {text-shadow: 0px 1px 3px #000;}
 
+.item i.fa {margin-bottom:15px;}
+
  @media only screen and (max-width: 767px){
 section {padding:0;}
 .content-row {margin-top:0;}
@@ -1195,3 +1197,4 @@ footer .social {margin-bottom:30px !important;}
 footer .social .fa-3x {font-size:2em;}
 .m_title {height:180px; padding:30px;}
 }
+
